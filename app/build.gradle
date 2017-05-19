@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.example.jsouptest"
-        minSdkVersion 21
+        minSdkVersion 18
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
