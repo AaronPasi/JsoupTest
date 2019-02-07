@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void getNews(){
 
+        Log.e("Jsoup","Test");
+
         new Thread(new Runnable() {
             @Override
             public void run() {
